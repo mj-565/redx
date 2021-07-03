@@ -1,7 +1,7 @@
 {
-  "name": "wabot-aq",
+  "name": "wow",
   "version": "2.5.1",
-  "description": "Customizable WhatsApp Bot",
+  "description": "KioniNdungu WhatsApp Bot",
   "depecrated": false,
   "main": "index.js",
   "directories": {
@@ -19,16 +19,16 @@
     "whatsapp",
     "js-whatsapp"
   ],
-  "homepage": "https://github.com/Nurutomo/wabot-aq",
+  "homepage": "https://github.com/KioniNdungu/wow",
   "author": {
-    "name": "Nurutomo"
+    "name": "KioniNdungu"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Nurutomo/wabot-aq.git"
+    "url": "git+https://github.com/KioniNdungu/wow.git"
   },
   "bugs": {
-    "url": "https://github.com/Nurutomo/wabot-aq/issues"
+    "url": "https://github.com/KioniNdungu/wow/issues"
   },
   "license": "GPL-3.0-or-later",
   "dependencies": {
