@@ -4,28 +4,28 @@ const artinama_api = [
   ['xteam', '/primbon/artinama', 'q', 'APIKEY', json => {
     if (!json.status) throw json
     return `
-*Nama:* ${json.result.nama}
-*Arti:* ${json.result.arti}
+*Name:* ${json.result.nama}
+*Meaning:* ${json.result.arti}
 
-*Makna:* ${json.result.maksud}
+*mean:* ${json.result.maksud}
 `.trim()
   }],
-  ['http://nzcha-apii.herokuapp.com', '/artinama', 'nama', null, json => {
+  ['http://nzcha-apii.herokuapp.com', '/artinama', 'name', null, json => {
     if (!json.status) throw json
     return `
-*Arti:* ${json.result}
+*Meaning:* ${json.result}
 `.trim()
   }],
-  ['https://scrap.terhambar.com', '/nama', 'n', null, json => {
+  ['https://scrap.terhambar.com', '/name', 'n', null, json => {
     if (!json.status) throw json
     return `
-*Arti:* ${json.result.arti}
+*Meaning:* ${json.result.arti}
 `.trim()
   }]
 ]
 
 let handler = async (m, { text }) => {
-  if (!text) throw 'Namanya siapa?'
+  if (!text) throw 'What is your Name?'
   let result = ''
   for (let [origin, pathname, query, apikey, fn] of artinama_api) {
     try {
@@ -40,8 +40,8 @@ let handler = async (m, { text }) => {
   }
   m.reply(result)
 }
-handler.help = ['artinama'].map(v => v + ' [nama]')
-handler.tags = ['kerang']
-handler.command = ['artinama']
+handler.help = ['meaningname'].map(v => v + ' [name]')
+handler.tags = ['clams']
+handler.command = ['name']
 
 module.exports = handler
