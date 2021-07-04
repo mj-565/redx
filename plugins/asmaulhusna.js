@@ -5,7 +5,7 @@ let handler = async (m) => {
     contoh = `*Asmaul Husna*\n\n`
     anjuran = `\n\nDari Abu hurarirah radhiallahu anhu, Rasulullah Saw bersabda: "إِنَّ لِلَّهِ تَعَالَى تِسْعَةً وَتِسْعِينَ اسْمًا، مِائَةٌ إِلَّا وَاحِدًا، مَنْ أَحْصَاهَا دخل الجنة، وهو وتر يُحِبُّ الْوِتْرَ"
 
-Artinya: "Sesungguhnya Allah mempunyai sembilan puluh sembilan nama, alias seratus kurang satu. Barang siapa yang menghitung-hitungnya, niscaya masuk surga; Dia Witir dan menyukai yang witir".`
+meaning: "Verily Allah has ninety -nine names, aka one hundred less one.Whoever counts them, will enter Paradise; He is Witr and likes witr".`
     m.reply(contoh + data + anjuran)
 }
 handler.help = ['asmaulhusna']
