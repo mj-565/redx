@@ -1,7 +1,7 @@
 {
-  "name": "wow",
+  "name": "MJ",
   "version": "2.5.1",
-  "description": "KioniNdungu WhatsApp Bot",
+  "description": "MJ WhatsApp Bot",
   "depecrated": false,
   "main": "index.js",
   "directories": {
@@ -19,16 +19,16 @@
     "whatsapp",
     "js-whatsapp"
   ],
-  "homepage": "https://github.com/KioniNdungu/wow",
+  "homepage": "https://github.com/mj-565/mj",
   "author": {
-    "name": "KioniNdungu"
+    "name": "MJ"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/KioniNdungu/wow.git"
+    "url": "git+https://github.com/mj-565/red.git"
   },
   "bugs": {
-    "url": "https://github.com/KioniNdungu/wow/issues"
+    "url": "https://github.com/mj-565/red/issues"
   },
   "license": "GPL-3.0-or-later",
   "dependencies": {
